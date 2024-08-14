@@ -6,7 +6,7 @@
 
 Agent Hub 是一个 AI Agent 解决方案中心平台。本仓库包含三个不同的项目，旨在彻底改变企业工作流程，增强个性化语言学习体验，以及丰富多模态交互：
 
-- **GitHub Sentinel**：一个工具类 AI Agent，旨在无缝管理项目和自动更新 GitHub 仓库，以促进更有效的协作和项目跟踪。
+- **[GitHub Sentinel](./github_sentinel/README.md)**：一个工具类 AI Agent，旨在无缝管理项目和自动更新 GitHub 仓库，以促进更有效的协作和项目跟踪。
 - **LanguageMentor**：一个对话类 AI Agent，利用如 LLaMA 3 等先进的语言模型为全球超过 100 种语言的个性化学习提供支持，特别适用于全球旅行和生活场景。
 - **ChatPPT**：一个多模态 AI Agent，整合语音、图像和文本输入，以 AI 驱动的洞察和 PowerPoint 自动化，优化企业办公场景。
 
