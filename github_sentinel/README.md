@@ -25,10 +25,3 @@ GitHub Sentinel 是一个工具类 AI Agent，专为开发者和项目经理设�
 ### 探索更多
 
 期待更多开发者扩展和探索更多功能，参与到项目的持续改进中来。请通过 [GitHubSentinel项目页](https://github.com/DjangoPeng/GitHubSentinel) 提交你的反馈和建议。
-
-
-
-Here's an expansion of the version history table for the GitHub Sentinel project, adding details for versions v0.2.1, v0.3, and v0.4 based on the release notes provided at the repository:
-
-### 版本历史
-
