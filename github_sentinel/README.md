@@ -14,6 +14,7 @@ GitHub Sentinel 是一个工具类 AI Agent，专为开发者和项目经理设�
 | v0.3   | - 优化信息收集：只展示合并的 PR 和关闭的 Issue<br>- 时间范围默认设置从每日更新至可配置范围<br>- 增加基于用户定义日期范围的报告导出和生成功能<br>- 集成 Logoru 日志系统，支持持久化和不同级别的日志<br>- 改进 `export_progress_by_date_range` 函数，使文件名格式更清晰，时间范围报告更直观 | [访问 v0.3](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.3)   |
 | v0.3.2   | - 新增 github_client jupyter 文件，演示 GitHubClient 模块的研发和迭代过程，详细说明了如何使用 GitHub REST API 来获取 GitHub Repo 进展。<br>- 新增 report_generator jupyter 文件，演示了如何使用 ReportGenerator 和 LLM 模块来自动生成进展报告。<br> - 为进展获取和报告生成模块新增中文注释 | [访问 v0.3.2](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.3.2) |
 | v0.4   | - 新增多模式运行：<br>  - 命令行工具：交互式运行，手动管理订阅、更新检索和报告生成<br>  - 守护进程：后台服务运行，定期自动处理更新<br>  - Gradio 图形化界面：使用 Gradio 启动 Web 应用，提供用户友好的订阅管理和报告生成界面<br>- 大幅增强 README 文档，详细介绍所有三种操作模式的设置指南，确保用户可以根据自己的需求配置和运行 GitHub Sentinel<br>- 更新守护进程启动命令，提升清晰度和可用性，确保平稳运行和可靠的日志记录<br>- 精炼帮助命令和文档，更好地指导用户配置和操作不同模式的 GitHub Sentinel | [访问 v0.4](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.4)   |
+| v0.4.1   | - 解耦提示词管理：从 llm.py 中提取出提示词定义，通过系统角色实现更灵活和可维护的提示词管理，增强了报告生成任务的内容和格式的自定义能力。<br>- 模型升级：默认大模型从 GPT-3.5-Turbo 升级至 GPT-4o-mini，提高了文本生成的质量，增加了生成报告的准确性和相关性。<br>- 增加中文注释：为项目的其他模块增加了中文注释，提高了代码的可读性和可维护性，便于中文开发者和用户使用。 | [访问 v0.4.1](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.4.1)   |
 
 ### 项目初始化
 
