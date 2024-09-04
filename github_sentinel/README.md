@@ -19,7 +19,7 @@ GitHub Sentinel 是一个工具类 AI Agent，专为开发者和项目经理设�
 | v0.6   | - 扩展 `LLM Class` 支持调用私有化大模型服务（如：`Ollama`）<br>- 配置管理新增 `llm` 相关配置项，同时支持 `OpenAI GPT` 模型和 `Ollama` 私有化部署模型服务<br>- 更新文档，新增 [`Ollama`安装部署与服务发布](https://github.com/DjangoPeng/GitHubSentinel/blob/v0.6/docs/ollama.md) 文档| [访问 v0.6](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.6)   |
 | v0.7   | - **单元测试增强**：使用 `unittest` 模块在整个项目中引入全面的单元测试。测试覆盖测试框架现在彻底检查关键组件的功能，包括 GitHub 更新获取、电子邮件通知，以及通过 OpenAI 和 Ollama 模型的报告生成等关键组件。新增了 [单元测试详细说明](https://github.com/DjangoPeng/GitHubSentinel/blob/v0.7/docs/unit_test.md) 文档，详细解释了 `unittest` 工具，如 `@patch` 和 `MagicMock`。<br>- **Docker 集成 CI/CD**：实施基于 Docker 的持续集成与部署系统，确保代码在部署前的可靠性。包括：<br>  1.`Dockerfile`，用于构建项目 Docker 镜像，构建过程中运行单元测试。<br>  2. `build_image.sh` 脚本，自动给 Docker 镜像打上当前 Git 分支名的标签。<br>  3. `validate_tests.sh` 脚本，在 Docker 构建过程中执行所有单元测试，如果测试失败则中止构建，确保只部署通过测试的代码。<br> | [访问 v0.7](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.7)   |
 | v0.8   | - **Hacker News 功能扩展**：自动定时获取 Hacker News 的热门话题并总结每日热点趋势。<br>- **Gradio 界面增强**：支持多 Tab 同时展示 GitHub 项目进展和 Hacker News 热点话题。<br>- **DaemonProcess 功能扩展**：支持创建 GitHub 和 Hacker News 的多种定时任务。<br>- **单元测试更新**：包括针对新增的 Hacker News 模块的测试。<br>- **提示词优化**：为 GitHub 项目进展、Hacker News 热门话题及今日趋势设计专门的提示模板。<br>- **Prompts 与 LLM Class 解耦**：由 ReportGenerator 统一管理提示词。 | [访问 v0.8](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.8)   |
-
+| v0.8.1 | - **使用 Ollama 优化提示词模板**：改进了使用 Ollama 私有化大模型生成 GitHub 项目进展的提示词模板，提高了生成内容的相关性和准确性。<br>- **README.md 文档更新**：在 README.md 中增加产品截图，帮助新用户直观了解应用功能和界面。 | [访问 v0.8.1](https://github.com/DjangoPeng/GitHubSentinel/tree/v0.8.1) |
 
 ### 项目初始化
 
