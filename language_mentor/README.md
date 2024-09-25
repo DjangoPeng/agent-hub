@@ -8,3 +8,4 @@ LanguageMentor 是一款基于 LLaMA 3.1 或 GPT-4o-mini 的在线英语私教�
 |--------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | v0.1   | - **用户界面**：使用 Gradio 作为用户界面，分 tab 实现了*对话训练*和*场景体验*的UI布局。<br>- **对话训练功能**：通过 Ollama 托管的 `LLaMA 3.1 8B instruct 量化模型`驱动 ChatBot，使用 LangChain Runnables 模块记录对话历史，实现对话训练功能，。 | [访问 v0.1](https://github.com/DjangoPeng/LanguageMentor/tree/v0.1)   |
 | v0.2   | - **新增模拟对话场景：酒店入住（Hotel Checkin）**：实现了完整的酒店多轮（最多20轮）对话，帮助学习者完成酒店入住流程并询问酒店设施。<br>- **新增模拟对话场景：求职面试（Job Interview）**：支持学习者练习自我介绍和回答常见面试问题。面试场景的对话效果还在持续优化中。 | [访问 v0.2](https://github.com/DjangoPeng/LanguageMentor/tree/v0.2)   |
+| v0.3   | - **场景代理重构**：改进了场景代理的架构，提高了响应机制的稳定性和效率。<br>- **ChatBot 引导消息**：新增了每个场景开始时 ChatBot 的欢迎引导消息。<br>- **支持跨场景聊天历史**：为同一用户在不同场景间保持聊天历史，增强了练习的连贯性。 | [访问 v0.3](https://github.com/DjangoPeng/LanguageMentor/tree/v0.3)   |
